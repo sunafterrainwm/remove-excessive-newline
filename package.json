@@ -1,0 +1,34 @@
+{
+	"name": "remove-excessive-newline",
+	"version": "1.0.0",
+	"description": "remove excessive newline from a string",
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"scripts": {
+		"lint": "eslint src/*.ts",
+		"build": "tsc",
+		"test": "npm run lint && npm run build && mocha",
+		"prepare": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sunafterrainwm/remove-excessive-newline.git"
+	},
+	"keywords": [],
+	"author": "sunafterrainwm",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sunafterrainwm/remove-excessive-newline/issues"
+	},
+	"homepage": "https://github.com/sunafterrainwm/remove-excessive-newline#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.15.0",
+		"@typescript-eslint/parser": "^5.15.0",
+		"eslint": "^8.11.0",
+		"eslint-config-wikimedia": "^0.22.1",
+		"mocha": "^9.2.2"
+	},
+	"files": [
+		"build/**"
+	]
+}

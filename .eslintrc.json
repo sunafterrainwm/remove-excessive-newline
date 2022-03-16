@@ -1,0 +1,22 @@
+{
+	"env": {
+		"commonjs": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"wikimedia",
+		"wikimedia/node",
+		"wikimedia/language/es2016"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 7
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {
+	}
+}
